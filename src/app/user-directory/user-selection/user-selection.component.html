@@ -1,0 +1,10 @@
+<div class="main-section">
+    <div *ngFor="let option of selected">
+        <mat-selection-list>
+            <p>Name: {{ option.name }}</p>
+            <p>Age: {{ option.age }}</p>
+            <p>Number: {{ option.number }}</p>
+        </mat-selection-list>
+    </div>
+    <div *ngIf="!selected">No items to display</div>
+</div>

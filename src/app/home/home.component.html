@@ -1,0 +1,39 @@
+<div class="md-2">
+    Please enter numbers in all :
+</div>
+<div fxLayout="row">
+    <div class="md-2">
+        <mat-form-field>
+            <input matInput type="number" min="0" [(ngModel)]="first">
+        </mat-form-field>
+    </div>
+    <div class="md-2">
+        <mat-form-field>
+            <input matInput type="number" min="0" [(ngModel)]="second">
+        </mat-form-field>
+    </div>
+    <div class="md-2">
+        <mat-form-field>
+            <input matInput type="number" min="0" [(ngModel)]="third">
+        </mat-form-field>
+    </div>
+    <div class="md-2">
+        <mat-form-field>
+            <input matInput type="number" min="0" [(ngModel)]="fourth">
+        </mat-form-field>
+    </div>
+    <div class="md-2">
+        <mat-form-field>
+            <input matInput type="number" min="0" [(ngModel)]="fiveth">
+        </mat-form-field>
+    </div>
+</div>
+<div class="md-2">Enter the Total :</div>
+<div class="md-2">
+    <mat-form-field>
+        <input matInput type="number" min="0" [(ngModel)]="total">
+    </mat-form-field>
+</div>
+<div class="md-2">
+    <button mat-flat-button color="primary" (click)="save()">Save</button>
+</div>
